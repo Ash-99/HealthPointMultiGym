@@ -1,6 +1,6 @@
 // IMPORTANT: Replace this with the URL of your DEPLOYED backend API
 // For local testing, it would be 'http://127.0.0.1:5000/api/ask'
-const API_URL = 'https://healthpointmultigym.onrender.com';
+const API_URL = 'https://healthpointmultigym.onrender.com/';
 // Add this to your script.js
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
