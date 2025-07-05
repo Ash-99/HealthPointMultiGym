@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity AI Assistant</title>
+    <!-- <link rel= 'icon' href="infinitylogo-removebg-preview.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="app-title-area">
+            <!-- <img src="infinitylogo-removebg-preview.png" alt="Infinity Logo" class="app-logo"> -->
+            <h2 class="app-title">Health Point Multi-Gym</h2>
+            <!-- <img src="infinitylogo-removebg-preview.png" alt="Infinity Logo" class="app-logo"> -->
+        </div>
+        
+        <p class="tagline">Ask any query about the Gym here:</p>
+
+        <div class="input-area">
+            <input type="text" id="questionInput" placeholder="e.g. What are the facilites provided at the Gym?" autocomplete="off">
+            <button onclick="askQuestion()">Get Info</button>
+        </div>
+
+        <div class="result-area">
+            <h3 class="answer-label">Answer:</h3>
+            <div id="answer" class="loading"></div>
+        </div>
+        <p class="developer-credit">Contact Info : 7717785235 </p>
+        <p class="developer-credit">Address : Jamshedpur - Musabani Rd, Sunder Nagar, Jamshedpur, Jharkhand 831002 </p>
+        <div class="theme-toggle-area">
+            <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
