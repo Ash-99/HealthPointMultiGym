@@ -1,4 +1,4 @@
-const API_URL = 'https://the-infinity-ai.onrender.com/api/ask';
+const API_URL = 'https://healthpointmultigym.onrender.com/api/ask';
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
 }
